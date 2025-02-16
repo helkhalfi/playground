@@ -7,5 +7,5 @@ Each library tried will have it's own runner under `src/learn_<library>.py`
 
 | Library | Why | Project Link|
 |--|----------|--|
-|watchfiles|Watching files and folder changes (content, name, add, ...)|https://pypi.org/project/watchfiles/|
+|[watchfiles](src/learn_watchfiles.py)|Watching files and folder changes (content, name, add, ...)|https://pypi.org/project/watchfiles/|
 
