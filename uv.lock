@@ -28,11 +28,24 @@ name = "playground"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "pyspellchecker" },
     { name = "watchfiles" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "watchfiles", specifier = "==1.0.4" }]
+requires-dist = [
+    { name = "pyspellchecker", specifier = "==0.8.2" },
+    { name = "watchfiles", specifier = "==1.0.4" },
+]
+
+[[package]]
+name = "pyspellchecker"
+version = "0.8.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/42/5d/86d94aceb9c0813f27004ec71c036d8ec6a6324d989854ff0fe13fe036dc/pyspellchecker-0.8.2.tar.gz", hash = "sha256:2b026be14a162ba810bdda8e5454c56e364f42d3b9e14aeff31706e5ebcdc78f", size = 7149207 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/8e/7c79443d302a80cfd59bc365938d51e36e7e9aa7ce8ab1d8a0ca0c8e6065/pyspellchecker-0.8.2-py3-none-any.whl", hash = "sha256:4fee22e1859c5153c3bc3953ac3041bf07d4541520b7e01901e955062022290a", size = 7147898 },
+]
 
 [[package]]
 name = "sniffio"
